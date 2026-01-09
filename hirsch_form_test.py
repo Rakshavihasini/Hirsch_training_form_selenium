@@ -14,6 +14,7 @@ logging.basicConfig(
     format=f"%(asctime)s - %(levelname)s - %(message)s"
 )
 
+
 def fill_form():
     options = Options()
     download_dir = os.path.join(os.getcwd(), "pdf_output")
