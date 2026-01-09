@@ -1,0 +1,219 @@
+2026-01-08 15:30:22,711 - INFO - Title test passed
+2026-01-08 15:53:44,659 - INFO - Launching browser
+2026-01-08 15:53:45,875 - INFO - Title test passed
+2026-01-08 16:24:10,269 - INFO - Launching browser
+2026-01-08 16:24:13,400 - INFO - Title test passed
+2026-01-08 16:25:30,612 - INFO - Launching browser
+2026-01-08 16:25:31,770 - INFO - Title test passed
+2026-01-08 16:44:50,024 - INFO - Launching browser
+2026-01-08 16:44:51,262 - INFO - Title test passed
+2026-01-08 16:44:58,932 - INFO - Attempting to download logo PDF
+2026-01-08 16:45:03,222 - INFO - Logo PDF downloaded successfully: ['Hirsch-San-Diego-International-Airport-Case-Study-Aug-2024.pdf', 'Training Form.pdf']
+2026-01-08 17:07:32,935 - INFO - Launching browser
+2026-01-08 17:07:35,304 - INFO - Title test passed
+2026-01-08 17:07:42,723 - INFO - Attempting to download logo PDF
+2026-01-08 17:07:47,063 - INFO - Logo PDF downloaded successfully: ['Hirsch-San-Diego-International-Airport-Case-Study-Aug-2024 (1).pdf', 'Hirsch-San-Diego-International-Airport-Case-Study-Aug-2024.pdf', 'Training Form.pdf']
+2026-01-08 17:08:40,646 - INFO - Launching browser
+2026-01-08 17:08:41,867 - INFO - Title test passed
+2026-01-08 17:09:27,120 - INFO - Footer link opened: https://www.hirschsecure.com/
+2026-01-08 17:09:35,981 - INFO - Launching browser
+2026-01-08 17:09:37,175 - INFO - Title test passed
+2026-01-08 17:10:23,564 - INFO - Footer link opened: https://www.hirschsecure.com/
+2026-01-08 17:10:38,071 - INFO - Launching browser
+2026-01-08 17:10:39,262 - INFO - Title test passed
+2026-01-08 17:11:26,301 - INFO - Footer link opened: https://www.hirschsecure.com/
+2026-01-08 17:15:24,601 - INFO - Launching browser
+2026-01-08 17:15:27,090 - INFO - Title test passed
+2026-01-08 17:16:13,887 - INFO - Footer link opened: https://www.hirschsecure.com/
+2026-01-08 17:16:24,164 - INFO - Launching browser
+2026-01-08 17:16:25,414 - INFO - Title test passed
+2026-01-08 17:17:11,215 - INFO - Footer link opened: https://www.hirschsecure.com/
+2026-01-08 17:23:58,824 - INFO - Launching browser
+2026-01-08 17:24:00,067 - INFO - Title test passed
+2026-01-08 17:24:07,979 - INFO - Switched to footer link tab
+2026-01-08 17:24:14,252 - INFO - Footer page loaded successfully. Element text: UNIFIED SECURITY, LIMITLESS POSSIBILITIES
+2026-01-08 17:28:05,873 - INFO - Launching browser
+2026-01-08 17:28:07,092 - INFO - Title test passed
+2026-01-08 17:28:15,367 - INFO - Switched to footer link tab
+2026-01-08 17:28:41,008 - ERROR - Footer page element validation FAILED
+2026-01-08 17:28:41,008 - ERROR - Message: stale element reference: stale element not found
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff72b2588d5
+	0x7ff72b258930
+	0x7ff72b03165d
+	0x7ff72b047ed3
+	0x7ff72b0469d3
+	0x7ff72b03a006
+	0x7ff72b03a166
+	0x7ff72b037f4c
+	0x7ff72b03c74e
+	0x7ff72b0dc05f
+	0x7ff72b0b1fda
+	0x7ff72b0dac97
+	0x7ff72b07ac29
+	0x7ff72b07ba93
+	0x7ff72b570620
+	0x7ff72b56af60
+	0x7ff72b5896c6
+	0x7ff72b275dd4
+	0x7ff72b27ed7c
+	0x7ff72b261ff4
+	0x7ff72b2621a5
+	0x7ff72b247ed2
+	0x7ffb92d4e8d7
+	0x7ffb9500c53c
+
+2026-01-08 17:30:15,022 - INFO - Launching browser
+2026-01-08 17:30:16,262 - INFO - Title test passed
+2026-01-08 17:30:24,439 - INFO - Switched to footer link tab
+2026-01-08 17:31:05,187 - ERROR - Footer page element validation FAILED
+2026-01-08 17:31:05,187 - ERROR - Message: element click intercepted: Element <a class="link" href="/company/contact">...</a> is not clickable at point (648, 495). Other element would receive the click: <p class="legal">...</p>
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff72b2588d5
+	0x7ff72b258930
+	0x7ff72b03165d
+	0x7ff72b0919e8
+	0x7ff72b08f40f
+	0x7ff72b08c417
+	0x7ff72b08b338
+	0x7ff72b07ce7f
+	0x7ff72b0b1fda
+	0x7ff72b07c746
+	0x7ff72b0dac97
+	0x7ff72b07ac29
+	0x7ff72b07ba93
+	0x7ff72b570620
+	0x7ff72b56af60
+	0x7ff72b5896c6
+	0x7ff72b275dd4
+	0x7ff72b27ed7c
+	0x7ff72b261ff4
+	0x7ff72b2621a5
+	0x7ff72b247ed2
+	0x7ffb92d4e8d7
+	0x7ffb9500c53c
+
+2026-01-09 09:33:40,737 - INFO - Switched to footer link tab
+2026-01-09 09:34:57,844 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 09:35:11,006 - INFO - Launching browser
+2026-01-09 09:35:12,843 - INFO - Title test passed
+2026-01-09 09:35:20,167 - INFO - Switched to footer link tab
+2026-01-09 09:36:19,944 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 09:39:08,992 - INFO - Launching browser
+2026-01-09 09:39:10,199 - INFO - Title test passed
+2026-01-09 09:39:17,664 - INFO - Switched to footer link tab
+2026-01-09 09:40:17,673 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 09:45:43,426 - INFO - Launching browser
+2026-01-09 09:45:44,617 - INFO - Title test passed
+2026-01-09 09:45:51,700 - INFO - Switched to footer link tab
+2026-01-09 09:47:00,379 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 09:47:00,459 - INFO - Closed tab and switched back to main tab
+2026-01-09 10:07:05,870 - INFO - Launching browser
+2026-01-09 10:07:08,495 - INFO - Title test passed
+2026-01-09 10:10:44,107 - INFO - Launching browser
+2026-01-09 10:10:45,325 - INFO - Title test passed
+2026-01-09 10:10:54,659 - ERROR - Negative test failed for phone number: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff72b2588d5
+	0x7ff72b258930
+	0x7ff72b03165d
+	0x7ff72b089a33
+	0x7ff72b089d3c
+	0x7ff72b0ddf67
+	0x7ff72b0dac97
+	0x7ff72b07ac29
+	0x7ff72b07ba93
+	0x7ff72b570620
+	0x7ff72b56af60
+	0x7ff72b5896c6
+	0x7ff72b275dd4
+	0x7ff72b27ed7c
+	0x7ff72b261ff4
+	0x7ff72b2621a5
+	0x7ff72b247ed2
+	0x7ffb92d4e8d7
+	0x7ffb9500c53c
+
+2026-01-09 10:12:21,488 - INFO - Launching browser
+2026-01-09 10:12:22,732 - INFO - Title test passed
+2026-01-09 10:12:31,639 - ERROR - Negative test failed for phone number: Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff72b2588d5
+	0x7ff72b258930
+	0x7ff72b03165d
+	0x7ff72b089a33
+	0x7ff72b089d3c
+	0x7ff72b0ddf67
+	0x7ff72b0dac97
+	0x7ff72b07ac29
+	0x7ff72b07ba93
+	0x7ff72b570620
+	0x7ff72b56af60
+	0x7ff72b5896c6
+	0x7ff72b275dd4
+	0x7ff72b27ed7c
+	0x7ff72b261ff4
+	0x7ff72b2621a5
+	0x7ff72b247ed2
+	0x7ffb92d4e8d7
+	0x7ffb9500c53c
+
+2026-01-09 10:16:34,250 - INFO - Launching browser
+2026-01-09 10:16:36,530 - INFO - Title test passed
+2026-01-09 10:16:43,471 - INFO - Negative test passed for phone number - form prevented submission with invalid data
+2026-01-09 10:17:34,350 - INFO - Launching browser
+2026-01-09 10:17:35,529 - INFO - Title test passed
+2026-01-09 10:17:42,785 - INFO - Negative test passed for phone number - form prevented submission with invalid data
+2026-01-09 10:41:57,693 - INFO - Launching browser
+2026-01-09 10:42:00,257 - INFO - Title test passed
+2026-01-09 10:42:09,114 - INFO - Negative test passed for phone number - form prevented submission with invalid data
+2026-01-09 10:43:39,258 - INFO - Launching browser
+2026-01-09 10:43:40,482 - INFO - Title test passed
+2026-01-09 10:43:48,336 - ERROR - Negative test failed for phone number: No validation error detected
+2026-01-09 10:46:13,718 - INFO - Launching browser
+2026-01-09 10:46:14,923 - INFO - Title test passed
+2026-01-09 10:46:21,721 - INFO - Negative test passed for phone number - form prevented submission with invalid data
+2026-01-09 10:51:26,376 - INFO - Launching browser
+2026-01-09 10:51:27,582 - INFO - Title test passed
+2026-01-09 10:51:31,031 - INFO - Phone number accepted
+2026-01-09 10:53:28,313 - INFO - Launching browser
+2026-01-09 10:53:29,491 - INFO - Title test passed
+2026-01-09 10:53:32,909 - INFO - Phone number accepted
+2026-01-09 10:53:33,254 - INFO - Entered invalid phone number: abcd123
+2026-01-09 10:53:34,359 - INFO - Clicked submit button
+2026-01-09 10:53:37,407 - INFO - Negative test PASSED - form prevented submission with invalid data
+2026-01-09 10:54:11,459 - INFO - Launching browser
+2026-01-09 10:54:12,764 - INFO - Title test passed
+2026-01-09 10:54:16,192 - INFO - Phone number accepted
+2026-01-09 10:54:16,543 - INFO - Entered invalid phone number: abcd123
+2026-01-09 10:54:17,619 - INFO - Clicked submit button
+2026-01-09 10:54:20,662 - INFO - Negative test PASSED - form prevented submission with invalid data
+2026-01-09 10:54:58,331 - INFO - Launching browser
+2026-01-09 10:54:59,605 - INFO - Title test passed
+2026-01-09 10:55:04,985 - INFO - Phone number accepted
+2026-01-09 10:55:05,348 - INFO - Entered invalid phone number: abcd123
+2026-01-09 10:55:06,570 - INFO - Clicked submit button
+2026-01-09 10:55:19,623 - INFO - Negative test PASSED - form prevented submission with invalid data
+2026-01-09 11:01:50,153 - INFO - Launching browser
+2026-01-09 11:01:51,370 - INFO - Title test passed
+2026-01-09 11:01:56,760 - INFO - Phone number accepted
+2026-01-09 11:03:31,965 - INFO - Launching browser
+2026-01-09 11:03:33,192 - INFO - Title test passed
+2026-01-09 11:04:10,263 - INFO - Launching browser
+2026-01-09 11:04:11,455 - INFO - Title test passed
+2026-01-09 11:04:13,588 - INFO - Form submitted successfully
+2026-01-09 11:04:34,030 - INFO - Launching browser
+2026-01-09 11:04:35,211 - INFO - Title test passed
+2026-01-09 11:04:36,902 - INFO - Form submitted successfully
+2026-01-09 11:05:13,099 - INFO - Launching browser
+2026-01-09 11:05:14,240 - INFO - Title test passed
+2026-01-09 11:05:19,832 - INFO - Form submitted successfully
+2026-01-09 11:07:08,311 - INFO - Launching browser
+2026-01-09 11:07:09,502 - INFO - Title test passed
+2026-01-09 11:07:15,333 - ERROR - Form submission blocked due to invalid phone number
