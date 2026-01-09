@@ -217,3 +217,238 @@ Symbols not available. Dumping unresolved backtrace:
 2026-01-09 11:07:08,311 - INFO - Launching browser
 2026-01-09 11:07:09,502 - INFO - Title test passed
 2026-01-09 11:07:15,333 - ERROR - Form submission blocked due to invalid phone number
+2026-01-09 12:21:41,611 - INFO - Launching browser
+2026-01-09 12:21:43,920 - INFO - Title test passed: 'Training Form'
+2026-01-09 12:21:43,920 - INFO - Filling contact info: name- Raksha , email- 123@gmail.com , phone number-1231231230, dob-01082005
+2026-01-09 12:21:45,990 - INFO - Filling education info
+2026-01-09 12:21:48,629 - INFO - Attempting to download logo PDF
+2026-01-09 12:21:52,855 - INFO - PDF downloaded successfully: ['Hirsch-San-Diego-International-Airport-Case-Study-Aug-2024.pdf']
+2026-01-09 12:21:53,425 - INFO - Switched to footer link tab
+2026-01-09 12:22:55,944 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 12:22:56,035 - INFO - Closed tab and switched back to main tab
+2026-01-09 12:24:17,262 - INFO - Launching browser
+2026-01-09 12:24:18,496 - INFO - Title test passed: 'Training Form'
+2026-01-09 12:24:18,496 - INFO - Filling contact info: name- Raksha , email- 123@gmail.com , phone number-1231231230, dob-01082005
+2026-01-09 12:24:19,649 - INFO - Filling education info
+2026-01-09 12:24:22,771 - INFO - Switched to footer link tab
+2026-01-09 12:24:48,041 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 12:24:48,077 - INFO - Closed new tab and switched back to main tab
+2026-01-09 12:25:02,223 - INFO - Launching browser
+2026-01-09 12:25:03,429 - INFO - Title test passed: 'Training Form'
+2026-01-09 12:25:03,429 - INFO - Filling contact info: name- Raksha , email- 123@gmail.com , phone number-1231231230, dob-01082005
+2026-01-09 12:25:04,472 - INFO - Filling education info
+2026-01-09 12:25:07,381 - INFO - Switched to footer link tab
+2026-01-09 12:26:06,649 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 12:26:06,717 - INFO - Closed new tab and switched back to main tab
+2026-01-09 12:33:14,546 - INFO - Launching browser
+2026-01-09 12:33:15,987 - INFO - Title test passed: 'Training Form'
+2026-01-09 12:33:16,310 - INFO - Switched to footer link tab
+2026-01-09 12:34:18,558 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 12:34:18,596 - INFO - Switched back to main tab
+2026-01-09 12:36:09,261 - INFO - Launching browser
+2026-01-09 12:36:10,472 - INFO - Title test passed: 'Training Form'
+2026-01-09 12:36:10,643 - INFO - Switched to footer link tab
+2026-01-09 12:36:51,576 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 12:36:51,655 - INFO - Footer tab closed
+2026-01-09 12:36:51,657 - INFO - Switched back to main tab
+2026-01-09 12:38:15,182 - INFO - Launching browser
+2026-01-09 12:38:16,414 - INFO - Title test passed: 'Training Form'
+2026-01-09 12:38:16,583 - INFO - Switched to footer link tab
+2026-01-09 12:39:28,918 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 12:39:29,009 - INFO - Footer tab closed
+2026-01-09 12:39:34,010 - INFO - Switched back to main tab
+2026-01-09 14:24:32,044 - INFO - Launching browser
+2026-01-09 14:24:34,482 - INFO - Title test passed: 'Training Form'
+2026-01-09 14:24:34,918 - INFO - Switched to footer link tab
+2026-01-09 14:25:37,445 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 14:25:37,608 - INFO - Footer tab closed
+2026-01-09 14:25:42,610 - INFO - Switched back to main tab
+2026-01-09 14:33:37,029 - INFO - Launching browser
+2026-01-09 14:33:38,281 - INFO - Title test passed: 'Training Form'
+2026-01-09 14:33:38,600 - INFO - Switched to footer link tab
+2026-01-09 14:34:05,889 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 14:34:05,983 - INFO - Footer tab closed
+2026-01-09 14:34:06,016 - INFO - Switched back to parent tab
+2026-01-09 14:35:38,811 - INFO - Launching browser
+2026-01-09 14:35:40,051 - INFO - Title test passed: 'Training Form'
+2026-01-09 14:35:50,936 - ERROR - Footer page element validation FAILED
+2026-01-09 14:35:50,937 - ERROR - Message: 
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff72b2588d5
+	0x7ff72b258930
+	0x7ff72b03165d
+	0x7ff72b089a33
+	0x7ff72b089d3c
+	0x7ff72b0ddf67
+	0x7ff72b0dac97
+	0x7ff72b07ac29
+	0x7ff72b07ba93
+	0x7ff72b570620
+	0x7ff72b56af60
+	0x7ff72b5896c6
+	0x7ff72b275dd4
+	0x7ff72b27ed7c
+	0x7ff72b261ff4
+	0x7ff72b2621a5
+	0x7ff72b247ed2
+	0x7ffb92d4e8d7
+	0x7ffb9500c53c
+
+2026-01-09 14:36:19,123 - INFO - Launching browser
+2026-01-09 14:36:20,335 - INFO - Title test passed: 'Training Form'
+2026-01-09 14:36:20,575 - INFO - Switched to footer link tab
+2026-01-09 14:37:20,938 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 14:37:21,028 - INFO - Footer tab closed
+2026-01-09 14:37:25,043 - INFO - Switched back to parent tab
+2026-01-09 14:38:10,143 - INFO - Launching browser
+2026-01-09 14:38:11,370 - INFO - Title test passed: 'Training Form'
+2026-01-09 14:38:11,718 - INFO - Switched to footer link tab
+2026-01-09 14:38:53,569 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 14:38:53,750 - INFO - Footer tab closed
+2026-01-09 14:38:54,752 - INFO - Switched back to parent tab
+2026-01-09 14:39:15,435 - INFO - Launching browser
+2026-01-09 14:39:16,701 - INFO - Title test passed: 'Training Form'
+2026-01-09 14:39:16,989 - INFO - Switched to footer link tab
+2026-01-09 14:39:43,739 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 14:39:43,837 - INFO - Footer tab closed
+2026-01-09 14:39:53,848 - INFO - Switched back to parent tab
+2026-01-09 14:40:34,926 - INFO - Launching browser
+2026-01-09 14:40:36,156 - INFO - Title test passed: 'Training Form'
+2026-01-09 14:40:36,450 - INFO - Switched to footer link tab
+2026-01-09 14:41:25,595 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 14:41:25,701 - INFO - Footer tab closed
+2026-01-09 14:41:35,703 - INFO - Switched back to parent tab
+2026-01-09 14:42:03,492 - INFO - Launching browser
+2026-01-09 14:42:04,716 - INFO - Title test passed: 'Training Form'
+2026-01-09 14:42:05,057 - INFO - Switched to footer link tab
+2026-01-09 14:42:58,070 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 14:42:58,221 - INFO - Footer tab closed
+2026-01-09 14:43:03,222 - INFO - Switched back to parent tab
+2026-01-09 14:43:32,959 - INFO - Launching browser
+2026-01-09 14:43:34,280 - INFO - Title test passed: 'Training Form'
+2026-01-09 14:43:34,611 - INFO - Switched to footer link tab
+2026-01-09 14:44:15,682 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 14:44:15,765 - INFO - Footer tab closed
+2026-01-09 14:44:20,767 - INFO - Switched back to parent tab
+2026-01-09 14:45:02,735 - INFO - Launching browser
+2026-01-09 14:45:03,957 - INFO - Title test passed: 'Training Form'
+2026-01-09 14:45:04,208 - INFO - Switched to footer link tab
+2026-01-09 14:46:17,156 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 14:46:17,258 - INFO - Footer tab closed
+2026-01-09 14:46:22,290 - INFO - Switched back to parent tab
+2026-01-09 14:49:00,989 - INFO - Launching browser
+2026-01-09 14:49:02,208 - INFO - Title test passed: 'Training Form'
+2026-01-09 14:49:02,524 - INFO - Switched to footer link tab
+2026-01-09 14:50:30,909 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 14:50:30,909 - INFO - Footer tab closed
+2026-01-09 14:50:35,961 - INFO - Switched back to parent tab
+2026-01-09 14:52:09,482 - INFO - Launching browser
+2026-01-09 14:52:10,774 - INFO - Title test passed: 'Training Form'
+2026-01-09 14:52:11,037 - INFO - Switched to footer link tab
+2026-01-09 14:53:28,472 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 14:53:28,474 - INFO - Footer tab closed
+2026-01-09 14:53:33,475 - INFO - Switched back to parent tab
+2026-01-09 14:55:28,614 - INFO - Launching browser
+2026-01-09 14:55:29,877 - INFO - Title test passed: 'Training Form'
+2026-01-09 14:55:30,194 - INFO - Switched to footer link tab
+2026-01-09 14:55:30,194 - INFO - Footer tab closed
+2026-01-09 14:55:35,196 - INFO - Switched back to parent tab
+2026-01-09 14:55:44,335 - INFO - Launching browser
+2026-01-09 14:55:45,557 - INFO - Title test passed: 'Training Form'
+2026-01-09 14:55:46,024 - INFO - Switched to footer link tab
+2026-01-09 14:55:46,024 - INFO - Footer tab closed
+2026-01-09 14:55:51,025 - INFO - Switched back to parent tab
+2026-01-09 14:56:53,225 - INFO - Launching browser
+2026-01-09 14:56:54,489 - INFO - Title test passed: 'Training Form'
+2026-01-09 14:56:54,839 - INFO - Switched to footer link tab
+2026-01-09 14:56:54,839 - INFO - Footer tab closed
+2026-01-09 14:56:59,843 - INFO - Switched back to parent tab
+2026-01-09 14:58:54,128 - INFO - Launching browser
+2026-01-09 14:58:55,413 - INFO - Title test passed: 'Training Form'
+2026-01-09 14:58:55,805 - INFO - Switched to footer link tab
+2026-01-09 14:58:57,808 - INFO - Footer tab closed
+2026-01-09 14:59:02,809 - INFO - Switched back to parent tab
+2026-01-09 15:00:25,667 - INFO - Launching browser
+2026-01-09 15:00:26,916 - INFO - Title test passed: 'Training Form'
+2026-01-09 15:00:27,252 - INFO - Switched to footer link tab
+2026-01-09 15:00:29,253 - INFO - Footer tab closed
+2026-01-09 15:00:34,255 - INFO - Switched back to parent tab
+2026-01-09 15:04:41,719 - INFO - Launching browser
+2026-01-09 15:04:42,966 - INFO - Title test passed: 'Training Form'
+2026-01-09 15:04:43,294 - INFO - Switched to footer link tab
+2026-01-09 15:05:48,671 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 15:05:49,790 - INFO - Footer tab closed
+2026-01-09 15:05:51,806 - INFO - Switched back to parent tab
+2026-01-09 15:06:35,843 - INFO - Launching browser
+2026-01-09 15:06:37,078 - INFO - Title test passed: 'Training Form'
+2026-01-09 15:06:37,393 - INFO - Switched to footer link tab
+2026-01-09 15:07:56,862 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 15:07:57,992 - INFO - Footer tab closed
+2026-01-09 15:08:00,034 - INFO - Switched back to parent tab
+2026-01-09 15:12:08,619 - INFO - Launching browser
+2026-01-09 15:12:09,878 - INFO - Title test passed: 'Training Form'
+2026-01-09 15:12:10,178 - INFO - Switched to footer link tab
+2026-01-09 15:13:15,752 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 15:13:15,752 - INFO - Footer tab closed
+2026-01-09 15:13:20,809 - INFO - Switched back to parent tab
+2026-01-09 15:39:40,378 - INFO - Launching browser
+2026-01-09 15:39:42,641 - INFO - Title test passed: 'Training Form'
+2026-01-09 15:39:42,875 - INFO - Switched to footer link tab
+2026-01-09 15:41:16,900 - INFO - Footer page loaded successfully - Contact link clicked
+2026-01-09 15:41:16,900 - INFO - Footer tab closed
+2026-01-09 15:41:21,947 - INFO - Switched back to parent tab
+2026-01-09 16:21:01,312 - INFO - Launching browser
+2026-01-09 16:21:03,801 - INFO - Title test passed: 'Training Form'
+2026-01-09 16:21:03,963 - INFO - Opened footer link 1
+2026-01-09 16:21:03,989 - INFO - Switched to footer link tab 1
+2026-01-09 16:21:31,490 - INFO - Footer page 1 loaded successfully - Contact link clicked
+2026-01-09 16:23:46,914 - INFO - Launching browser
+2026-01-09 16:23:48,140 - INFO - Title test passed: 'Training Form'
+2026-01-09 16:23:48,289 - INFO - Opened footer link 1
+2026-01-09 16:23:48,309 - INFO - Switched to footer link tab 1
+2026-01-09 16:24:29,421 - INFO - Footer page 1 loaded successfully - Contact link is accessible and clickable
+2026-01-09 16:27:06,558 - INFO - Launching browser
+2026-01-09 16:27:07,880 - INFO - Title test passed: 'Training Form'
+2026-01-09 16:27:08,097 - INFO - Opened footer link 1
+2026-01-09 16:27:08,113 - INFO - Switched to footer link tab 1
+2026-01-09 16:27:49,319 - INFO - Footer page 1 loaded successfully - Contact link is accessible and clickable
+2026-01-09 16:27:51,945 - INFO - Opened footer link 2
+2026-01-09 16:27:52,027 - INFO - Switched to footer link tab 2
+2026-01-09 16:28:30,078 - INFO - Footer page 2 loaded successfully - Contact link is accessible and clickable
+2026-01-09 16:28:32,240 - INFO - Opened footer link 3
+2026-01-09 16:28:32,264 - INFO - Switched to footer link tab 3
+2026-01-09 16:29:10,393 - INFO - Footer page 3 loaded successfully - Contact link is accessible and clickable
+2026-01-09 16:29:12,470 - INFO - Closed the last opened footer tab
+2026-01-09 16:29:14,471 - INFO - Switched back to main tab
+2026-01-09 16:30:44,799 - INFO - Launching browser
+2026-01-09 16:30:46,049 - INFO - Title test passed: 'Training Form'
+2026-01-09 16:30:46,218 - INFO - Opened footer link 1
+2026-01-09 16:30:46,244 - INFO - Switched to footer link tab 1
+2026-01-09 16:31:26,987 - INFO - Footer page 1 loaded successfully - Contact link is accessible and clickable
+2026-01-09 16:31:29,157 - INFO - Opened footer link 2
+2026-01-09 16:31:29,174 - INFO - Switched to footer link tab 2
+2026-01-09 16:32:05,006 - INFO - Footer page 2 loaded successfully - Contact link is accessible and clickable
+2026-01-09 16:32:07,187 - INFO - Opened footer link 3
+2026-01-09 16:32:07,215 - INFO - Switched to footer link tab 3
+2026-01-09 16:32:45,723 - INFO - Footer page 3 loaded successfully - Contact link is accessible and clickable
+2026-01-09 16:32:47,806 - INFO - Closed the last opened footer tab
+2026-01-09 16:32:49,809 - INFO - Switched back to main tab
+2026-01-09 16:40:26,696 - INFO - Launching browser
+2026-01-09 16:40:27,945 - INFO - Title test passed: 'Training Form'
+2026-01-09 16:40:27,945 - INFO - Filling contact info: name- Raksha , email- 123@gmail.com , phone number-1231231230, dob-01082005
+2026-01-09 16:40:28,515 - INFO - Filling education info
+2026-01-09 16:40:30,830 - INFO - Attempting to download logo PDF
+2026-01-09 16:40:34,984 - INFO - PDF downloaded successfully: ['Hirsch-San-Diego-International-Airport-Case-Study-Aug-2024 (1).pdf', 'Hirsch-San-Diego-International-Airport-Case-Study-Aug-2024 (2).pdf', 'Hirsch-San-Diego-International-Airport-Case-Study-Aug-2024 (3).pdf', 'Hirsch-San-Diego-International-Airport-Case-Study-Aug-2024 (4).pdf', 'Hirsch-San-Diego-International-Airport-Case-Study-Aug-2024.pdf']
+2026-01-09 16:40:35,135 - INFO - Opened footer link 1
+2026-01-09 16:40:35,161 - INFO - Switched to footer link tab 1
+2026-01-09 16:41:18,344 - INFO - Footer page 1 loaded successfully - Contact link is accessible and clickable
+2026-01-09 16:41:20,707 - INFO - Opened footer link 2
+2026-01-09 16:41:20,733 - INFO - Switched to footer link tab 2
+2026-01-09 16:41:56,268 - INFO - Footer page 2 loaded successfully - Contact link is accessible and clickable
+2026-01-09 16:41:58,434 - INFO - Opened footer link 3
+2026-01-09 16:41:58,462 - INFO - Switched to footer link tab 3
+2026-01-09 16:42:31,735 - INFO - Footer page 3 loaded successfully - Contact link is accessible and clickable
+2026-01-09 16:42:33,842 - INFO - Closed the last opened footer tab
+2026-01-09 16:42:35,842 - INFO - Switched back to main tab
+2026-01-09 16:42:39,271 - INFO - Form submitted successfully
