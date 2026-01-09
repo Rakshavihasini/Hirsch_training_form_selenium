@@ -57,10 +57,10 @@ def fill_form():
 
     fill_contact(driver)
     
-    #fill_institution(driver)
+    fill_institution(driver)
     submit_form(driver)
-    #download_logo_pdf(driver, download_dir)  
-    #click_footer_link(driver)
+    download_logo_pdf(driver, download_dir)  
+    click_footer_link(driver)
     
 
     
@@ -111,7 +111,7 @@ def fill_institution(driver):
 
     lang_checkbox = driver.find_element(By.ID, "lang1")
     driver.execute_script("arguments[0].click();", lang_checkbox)
-    sleep(2)
+    
 
 def download_logo_pdf(driver, download_dir):
     logging.info("Attempting to download logo PDF")
@@ -163,12 +163,6 @@ def click_footer_link(driver):
         logging.info("Closed tab and switched back to main tab")
 
 
-    
-
-
-
-
-
 def submit_form(driver):
     
     phone_input = driver.find_element(By.ID, "phone")
@@ -184,7 +178,6 @@ def submit_form(driver):
     is_phone_valid = driver.execute_script(
         "return arguments[0].validity.valid;", phone_input
     )
-    sleep(2)
 
     if not is_phone_valid:
         logging.error("Form submission blocked due to invalid phone number")
