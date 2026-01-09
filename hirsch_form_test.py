@@ -52,21 +52,21 @@ def fill_form():
     title = driver.title
     try:
         assert "Training Form" in title
-        logging.info("Title test passed")
+        logging.info(f"Title test passed: '{title}'")
     except AssertionError:
-        logging.error("Title test failed")
+        logging.error(f"Title test failed: '{title}'")
 
     fill_contact(driver)
-    
     fill_institution(driver)
-    submit_form(driver)
     download_logo_pdf(driver, download_dir)  
     click_footer_link(driver)
+    submit_form(driver)
     
 
     
 
 def fill_contact(driver):
+    logging.info(f"Filling contact info: name- {test_data.name} , email- {test_data.email} , phone number-{test_data.phone}, dob-{test_data.dob}")
     driver.find_element(By.ID, "Name").send_keys(test_data.name)
 
     driver.find_element(By.ID, "email").send_keys(test_data.email)
@@ -74,8 +74,6 @@ def fill_contact(driver):
     # PHONE NUMBER (NEGATIVE TEST)
     phone_input = driver.find_element(By.ID, "phone")
     phone_input.send_keys(test_data.phone)
-
-    
 
     gender_radio = driver.find_element(By.ID, "gender2")
     driver.execute_script("arguments[0].click();", gender_radio)
@@ -89,6 +87,7 @@ def fill_contact(driver):
 
 
 def fill_institution(driver):
+    logging.info("Filling education info")
     # Degree
     education_group = driver.find_element(By.TAG_NAME, "table")
     input_collection = education_group.find_elements(By.TAG_NAME, "input")
@@ -108,7 +107,7 @@ def fill_institution(driver):
     input_collection[3].send_keys("91")
 
     
-    print("Institution filling completed")
+    
 
     lang_checkbox = driver.find_element(By.ID, "lang1")
     driver.execute_script("arguments[0].click();", lang_checkbox)
@@ -127,42 +126,62 @@ def download_logo_pdf(driver, download_dir):
     pdfs = [f for f in os.listdir(download_dir) if f.endswith(".pdf")]
 
     assert len(pdfs) > 0, "Logo PDF was not downloaded"
-    logging.info(f"Logo PDF downloaded successfully: {pdfs}")
+    logging.info(f"PDF downloaded successfully: {pdfs}")
 
 def click_footer_link(driver):
-    main_window = driver.current_window_handle
+    # Store parent tab
+    parent_window = driver.current_window_handle
 
-    footer_link = driver.find_element(By.LINK_TEXT, "Hirsch Secure")
-    footer_link.click()
+    # Open footer link 3 times
+    footer_links = []
+    for i in range(3):
+        #  switch back to parent window to find the footer link
+        driver.switch_to.window(parent_window)
 
-    # Wait for new tab
-    WebDriverWait(driver, 10).until(EC.number_of_windows_to_be(2))
+        # Store existing windows BEFORE click
+        existing_windows = set(driver.window_handles)
 
-    # Switch to new tab
-    for handle in driver.window_handles:
-        if handle != main_window:
-            driver.switch_to.window(handle)
-            break
+        footer_link = driver.find_element(By.LINK_TEXT, "Hirsch Secure")
+        footer_link.click()
+        logging.info(f"Opened footer link {i+1}")
 
-    logging.info("Switched to footer link tab")
+        # Wait until a NEW window appears
+        WebDriverWait(driver, 10).until(
+            lambda d: len(d.window_handles) > len(existing_windows)
+        )
 
-    try:
+        # Identify the NEW tab
+        new_window = list(set(driver.window_handles) - existing_windows)[0]
+        footer_links.append(new_window)
 
-        footer_element = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.LINK_TEXT, "Contact")))
-        driver.execute_script("arguments[0].click();", footer_element)
+        # Switch to NEW tab
+        driver.switch_to.window(new_window)
+        logging.info(f"Switched to footer link tab {i+1}")
 
-        logging.info("Footer page loaded successfully - Contact link clicked")
+        try:
+            footer_element = WebDriverWait(driver, 5).until(
+                EC.element_to_be_clickable((By.LINK_TEXT, "Contact"))
+            )
+            logging.info(f"Footer page {i+1} loaded successfully - Contact link is accessible and clickable")
 
-    except Exception as e:
-        logging.error("Footer page element validation FAILED")
-        logging.error(str(e))
-        raise AssertionError("Footer link page did not load correctly")
+        except Exception as e:
+            logging.error(f"Footer page {i+1} element validation FAILED")
+            logging.error(str(e))
+            raise AssertionError(f"Footer link page {i+1} did not load correctly - Contact link not accessible")
+
+        sleep(2)
+
+    # Close the last opened link (3rd tab)
+    driver.switch_to.window(footer_links[2])
+    driver.close()
+    logging.info("Closed the last opened footer tab")
+    sleep(2)
+
+    # Switch back to ORIGINAL parent tab
+    driver.switch_to.window(parent_window)
+    logging.info("Switched back to main tab")
+
     
-    finally:
-        driver.close()
-        driver.switch_to.window(main_window)
-        logging.info("Closed tab and switched back to main tab")
-
 
 def submit_form(driver):
     
